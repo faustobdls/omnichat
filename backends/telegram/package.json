@@ -1,0 +1,33 @@
+{
+  "name": "omnichat-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint \"src/**/*\"",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "serve": "npm run build:watch",
+    "shell": "npm run build",
+    "start": "npm run build:watch"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.50.4",
+    "firebase-admin": "^9.2.0",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.6.0",
+    "eslint-plugin-import": "^2.22.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^3.9.1"
+  },
+  "private": true
+}
