@@ -14,7 +14,7 @@
 
 ## Clients Online
 
- [Web](https://omnichat-fausto.web.app)
+ [Web](https://omnichat-fausto.web.app/chat)
  [Telegram](https://t.me/omnichat_fausto_bot)
 
 ## Decisões
