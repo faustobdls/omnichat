@@ -2,7 +2,7 @@
 
 ---
 
-[ARQ IMAGE HERE]
+![ARQ IMAGE HERE](https://github.com/faustobdls/omnichat/blob/master/images/arq-omnichat.png?raw=true)
 
 
 - Client X/Y/Z
