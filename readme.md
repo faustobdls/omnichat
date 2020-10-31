@@ -12,6 +12,11 @@
 - Tasks
 - DB
 
+## Clients Online
+
+ [Web](https://omnichat-fausto.web.app)
+ [Telegram](https://t.me/omnichat_fausto_bot)
+
 ## Decisões
 
 1 - Clientes
@@ -39,7 +44,7 @@
 
  ---
 
- ## [SETUP] Local machine project
+ ## [SETUP] Maquina local
 
  ### Necessário
 
@@ -60,4 +65,65 @@
     - @angular/cli (Angular CLI)
     - @ionic/cli (Ionic CLI)
 
- 3 - 
+ 3 - Coloque as variáveis de ambiente do firebase para usar as functions de forma local e fazer o deploy, [Clique aqui para saber como gerar esse arquivo](https://cloud.google.com/docs/authentication/getting-started)
+
+   ```bash
+      export GOOGLE_APPLICATION_CREDENTIALS="path/to/project-config.json"
+   ```
+
+ 4 - coloque também a apikey do seu bot, [Clique aqui para saber como criar seu bot](https://t.me/botfather)
+
+   - [mais informaçoes sobre bots no telegram](https://core.telegram.org/bots)
+
+   ```bash
+      export TELEGRAM_OMNICHAT_APIKEY="STRING_KEY_HERE"
+   ```
+
+ 5 - Para as váriaveis que falei coloque no seu `.bashrc`, `.zshrc`, `.profile`, `.bash_aliases`, `.zsh_aliases`, como preferir, apenas garanta que seu terminal leia ela.
+
+
+ ## [Comandos] Para subir local o firebase emulators e o bot telegram
+
+ 1 - firebase emulators
+
+ ```bash
+   cd functions
+   npm i
+   npx tsc -w &
+   npm run build
+   cd ..
+   firebase emulators:start
+ ```
+   ou
+
+```bash
+   ./scripts/up-firebase-emulators.sh
+```
+
+ 2 - backend (telegram)
+
+```bash
+   cd backends/telegram
+   npx tsc -w src/index.ts &
+   node src/index.js
+```
+
+   ou
+   
+```bash
+   ./scripts/up-telegram-bot.sh
+```
+
+ 3 - frontend (web)
+
+```bash
+   cd frontends/web
+   npm i
+   ionic serve
+```
+
+   ou
+   
+```bash
+   ./scripts/up-frontend-web.sh
+```
