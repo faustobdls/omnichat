@@ -66,3 +66,7 @@ node_modules/
 .env
 
 frontends/web/src/environments
+frontends/web/src/environments/*
+frontends/web/src/environments/
+frontends/web/src/environments/environment.prod.ts
+frontends/web/src/environments/environment.ts
