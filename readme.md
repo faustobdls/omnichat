@@ -35,3 +35,28 @@
  - Armazenar os dados e configurações para cada caso
  - Firebase RealTimeDB
  - Firebase Firestore
+
+ ---
+
+ ## [SETUP] Local machine project
+
+ ### Necessário
+
+ 1 - [node 12.x](#nodelink) e npm 6.x
+
+ 2 - firebase tools/emulator para criar o ambiente local
+
+ 3 - angular/ionic cli para o frontend web
+
+
+ ### Processo
+
+ 1 - Instale o node na sua maquina
+
+ 2 - Instale os packages a seguir globalmente ou use via npx ou execute o script(scripts/global-packages.sh) 
+
+    - firebase-tools (Firebase CLI)
+    - @angular/cli (Angular CLI)
+    - @ionic/cli (Ionic CLI)
+
+ 3 - 
