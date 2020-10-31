@@ -4,6 +4,7 @@
 
 ![IMAGEM DA ARQUITETURA](https://github.com/faustobdls/omnichat/blob/master/images/arq-omnichat.png?raw=true)
 
+---
 
 - Client X/Y/Z
 - Backend for Frontend X/Y/Z
