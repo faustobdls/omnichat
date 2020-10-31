@@ -1,0 +1,11 @@
+<div class="talk-bubble" [ngClass]="{
+    'tri-right': true, 
+    'btm-right': message.provider !== 'owner',
+    'btm-left': message.provider === 'owner'
+}">
+    <div class="talktext">
+        <p>
+            <ng-content></ng-content>
+        </p>
+    </div>
+</div>

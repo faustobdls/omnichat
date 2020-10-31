@@ -1,0 +1,12 @@
+export const environment = {
+  production: true,
+  firebaseConfig: {
+    apiKey: "AIzaSyCnNpcPhhOHyJUOK-IZBAlQW79i0Qki6Wo",
+    authDomain: "omnichat-fausto.firebaseapp.com",
+    databaseURL: "https://omnichat-fausto.firebaseio.com",
+    projectId: "omnichat-fausto",
+    storageBucket: "omnichat-fausto.appspot.com",
+    messagingSenderId: "931270985363",
+    appId: "1:931270985363:web:664c114532f18856506f66"
+  }
+};

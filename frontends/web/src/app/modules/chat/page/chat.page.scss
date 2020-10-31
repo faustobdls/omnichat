@@ -1,0 +1,15 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    & > ion-spinner {
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+}

@@ -1,0 +1,18 @@
+<ion-content #content>
+  <div *ngIf="registred$ | async; else loading">
+    <div class="ccontent" *ngIf="users$ | async as elements; else loading">
+      <app-list-messages [content]="content" [messages]="elements.messages"></app-list-messages>
+    </div>
+  </div>
+</ion-content>
+
+<ion-skeleton-text></ion-skeleton-text>
+<app-input-send-message [from]="cpfValue" *ngIf="users$ | async as elements; else cpfForm"></app-input-send-message>
+<ng-template #loading>
+  <div class="center">
+    <ion-spinner></ion-spinner>
+  </div>
+</ng-template>
+<ng-template #cpfForm>
+  <ion-input [(ngModel)]="cpfValue" [placeholder]="'Informe o CPF'" (keyup)="onEnter($event)"></ion-input>
+</ng-template>

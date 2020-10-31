@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let message of messages">
+    <app-message [message]="message" [ngClass]="{'right': message.provider !== 'owner'}">
+      {{message.message_content}}
+    </app-message>
+  </li>
+</ul>
