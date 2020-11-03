@@ -2,6 +2,26 @@
 
 ---
 
+## Requisitos
+
+ - [x] nome: Omnichat
+ - [x] criação de contas: através de CPF
+   - [ ] CEP, como campo obrigatório
+ - [x] interfaces (acredito que 2 sejá o minimo)
+   - [x] Telegram
+   - [x] Web
+ - [x] Repositorio do github
+ - [x] Documentar em MD
+ - [ ] C4Model: Arquitetura
+ - [-] C4Model: Organização
+
+## Considerações
+
+ - Passou batido a parte do CEP.
+ - Diagrama em C4Model é algo novo pra mim, li sobre mas ainda não consegui me expressar bem usando tal notação.
+
+---
+
 ![IMAGEM DA ARQUITETURA](https://github.com/faustobdls/omnichat/blob/master/images/arq-omnichat.png?raw=true)
 
 ---
