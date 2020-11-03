@@ -13,7 +13,7 @@
  - [x] Repositorio do github
  - [x] Documentar em MD
  - [ ] C4Model: Arquitetura
- - [-] C4Model: Organização
+ - [ ] C4Model: Organização (Parcial)
 
 ## Considerações
 
