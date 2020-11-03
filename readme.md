@@ -127,3 +127,6 @@
 ```bash
    ./scripts/up-frontend-web.sh
 ```
+
+
+[Questões do teste](https://github.com/faustobdls/omnichat/blob/master/questoes.txt)
