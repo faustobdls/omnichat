@@ -1,0 +1,21 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+R: Cloud, isso fará ser mais fácil a solução escalar.
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução, responda qual ferramenta acreditas ser apropriada para o controle de tarefas da equipe, a ferramenta é ágil?
+R: Gosto de usar a própria ferramenta de git(github projects/gitlab boards) elas fazem o trabalho de kambam e a partir disso temos como filtrar e mensurar as tarefas de forma fácil e integrada as entregas
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+R: Acredito que sim, ja tive equipes no passado, com 1 ou 2 pessoas além de mim e acredito ter amadurecido mais e aprendido com alguns erros que cometi
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria? 
+R: Acredito que:
+1 - solução do backend do telegram pode ser trocado por um webhook dentro de uma cloud function, acredito ser uma solução melhor, mas só vi depois.
+2 - a ideia é usar o firebase como concentrador de dados, então todos os clientes/backends  vão escrever nele, com um prazo maior seria possivel elaborar mais o backend central dentro das functions
+3 - plugar mais soluções, messeger, instagram, mobile
+
+5. Acha válido esse desafio para o processo que está participando?
+R: Sim, mas tenho resalvas se eu fosse o aplicador:
+1 - Prazo é ok, 1 ou 2 dias a mais pode ser interessante para consegui fazer um pouco mais
+2 - além do prazo, quando é colocado esse prazo,  um fim de semana ou perguntar qual intervalo é melhor para executar essa tarefas
+
+No geral gostei bastante do desafio e aproveitei pra estudar algumas coisas que estavam pendentes, como bot no telegram
